@@ -18,5 +18,22 @@
     <ClCompile Include="main3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="array.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="exchange.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="structure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="exchange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
