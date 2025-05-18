@@ -3,7 +3,7 @@ using namespace std;
 #define changliang 1
 #include <string>
 
-int main()
+int m()
 {
 	int a = 3;
 	cout << "a = " << a << endl;
@@ -22,7 +22,7 @@ int main()
 	// 实型 浮点型float 4 7   double 8  15-16
 	float f1 = 3.14f;
 	cout << "f1=" << f1 << endl;
-	double d1 =0 ;
+	// double d1 =0 ;
 	//科学计数法
 	float f2 = 3e2; // 3*10 ^ 2;
 	float f3 = 3e-2; // 3*0.1 ^2;
@@ -52,10 +52,54 @@ int main()
 	bool flag = true;
 	cout << flag << endl;
 
-	int aaa;
+	/*int aaa;
 	cout << "请给变量赋值：" << endl;
 	cin >> aaa;
 	cout << "输出整型变量" << aaa << endl;
+	*/
+	//算数运算符
+	int a1 = 10;
+	int b1 = 3;
+
+	cout << a1 + b1 << endl;
+	cout << a1 / b1 << endl;  // 整数相除还是整数，去掉小数
+
+	double d1 = 0.25;
+	double d2 = 0.22;
+	cout << d1 / d2 << endl; //小数整除结果可以是小数  结果1.13636
+	// 取模运算  小数不可以进行取模 
+	// 递增递减运算
+	int aa = 10;
+	++aa;
+	cout << aa << endl;
+	// 前置递增先让变量+1再运算
+	// 后置递增先进行表达式运算，后+1；
+	int a3 = 10;
+	cout << "a3 = " << a3 << endl;
+	int b2 = ++a3 * 10;
+	cout << "++a3 * 10= " << b2 << endl;
+	cout << "a3 = " << a3 << endl;
+	a3 = 10;
+	int b3 = a3++ * 10;
+	cout << "a3++ * 10 = " << b3 << endl;
+	cout << "a3 = " << a3 << endl;
+	// 比较运算符：输出0，1
+	// 逻辑运算符 非！；与&&；或||；
+	int a4 = 10;
+	cout << !a4 << endl;  //0
+	cout << !!a4 << endl;  //1
+	//逻辑与
+	int i = 10;
+	int j = 10;
+	cout << (i && j) << endl; //1
+	//逻辑或
+	int i1 = 0;
+	int j1 = 0;
+	cout << (i || j) << endl; //1
+	cout << (i1 || j1) << endl;  //0
+
+
+
 
 	system("pause");
 	return 0;

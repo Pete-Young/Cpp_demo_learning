@@ -1,3 +1,2 @@
-﻿  main3.cpp
-E:\code\Cpp\demo1\demo1\main3.cpp(28,11): warning C4305: “初始化”: 从“double”到“float”截断
+﻿  array.cpp
   demo1.vcxproj -> E:\code\Cpp\demo1\x64\Debug\demo1.exe
