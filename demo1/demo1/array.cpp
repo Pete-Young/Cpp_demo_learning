@@ -37,7 +37,7 @@ void printArry(int* arr, int len)
 	cout << "end of arry" << endl;
 }
 
-int main()
+int main_array()
 {
 	int arr[5];
 	// 一维数组定义：3种方法
