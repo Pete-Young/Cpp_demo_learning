@@ -47,12 +47,42 @@ void test02()
 	{
 		arr[i] = i + 100;
 	}
-	for (int i = 10; i < 10; i++)
+	for (int i = 0; i < 10; i++)
 	{
 		cout << arr[i] << endl;
 	}
+	//释放堆区数组
+	//释放数组要加[]
+	delete[] arr; 
 }
 
+// 交换函数
+// 值传递；地址传递；引用传递
+void swap03(int& a, int& b)
+{
+	int temp = a;
+	a = b;
+	b = temp;
+}
+
+// 1 不要返回局部变量的引用
+int& test1()
+{
+	int a = 10;  // 局部变量存放在栈区
+	return a;
+}
+// 2 函数的调用可以作为左值
+int& test2()
+{
+	static int a = 10;
+	return a;
+}
+
+void show(int& val)
+{
+	// val = 1000;//防止这样的改动
+	cout << "val = " << val << endl;
+}
 int main()
 {
 	// 你内存四个区域
@@ -98,7 +128,47 @@ int main()
 	// test01();
 
 	test02();
-	
+	// 释放堆区的数组
+
+	// 引用
+	// 作用：给变量起别名
+	// 语法：  数据类型 & 别名 = 原名
+	int& c = a;
+	c = 20;
+	cout << a << endl;
+	// note：1.引用必须初始化，int &b;错误的
+	// 2.引用一旦初始化后就不可以更改了；
+		// 
+
+	// 引用做函数参数
+	// 作用：函数传参时，利用引用让形参修饰实参
+	swap03(a, b);
+	cout << a << endl;
+	cout << b << endl;
+	// 引用和地址效果一样，引用更为简单
+
+	// 引用做函数返回值
+	// 1 不要做函数局部变量的引用
+	// 2 可以作为左值
+	int& ref2 = test2();
+	cout << "ref2 = " << ref2 << endl;
+	test2() = 10000;
+	cout << "ref2 = " << ref2 << endl;
+	// 如果函数的返回值是引用，函数可以作为左值
+
+	// 引用的本质
+	// 引用的本质在C++内部实现是一个指针常量  
+
+	// 常量引用
+	// 用来修饰形参防止误操作
+	// const int& ref = 10;// 相当于int temp = 10;const int & temp;
+	// ref = 10;// 加入const 之后变为制度，不可修改；
+	int a1 = 100;
+	show(a1);
+
+
+
+
 
 
 }
