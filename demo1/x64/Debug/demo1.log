@@ -1,0 +1,7 @@
+﻿  memory.cpp
+E:\code\Cpp\demo1\demo1\memory.cpp(109,40): warning C4311: “类型强制转换”: 从“const char (*)[6]”到“int”的指针截断
+E:\code\Cpp\demo1\demo1\memory.cpp(109,40): warning C4302: “类型强制转换”: 从“const char (*)[6]”到“int”截断
+  SeniorFunction.cpp
+  正在生成代码...
+E:\code\Cpp\demo1\demo1\memory.cpp(72): warning C4172: 返回局部变量或临时变量的地址: a
+  demo1.vcxproj -> E:\code\Cpp\demo1\x64\Debug\demo1.exe
