@@ -83,7 +83,7 @@ void show(int& val)
 	// val = 1000;//防止这样的改动
 	cout << "val = " << val << endl;
 }
-int main()
+int main_memory()
 {
 	// 你内存四个区域
 	// 代码区：存放函数体的 二进制 代码，操作系统进行管理的
@@ -165,6 +165,7 @@ int main()
 	// ref = 10;// 加入const 之后变为制度，不可修改；
 	int a1 = 100;
 	show(a1);
+	return 0;
 
 
 
