@@ -14,7 +14,7 @@ int func(int a, int b = 20, int c = 30)
 // 2. 如果函数声明有默认参数，哈数实现就不能有默认参数
 // 声明和实现只能有一个有默认参数
 // int func2(int a = 10, int b = 20);
-int func2(int a = 10, int b = 20);
+int func2(int a = 10, int b = 20)
 {
 	return a + b;
 }
