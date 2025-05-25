@@ -62,17 +62,49 @@ struct C2
 {
 	int m_A;
 };
-int main()
+
+
+// 将成员属性设置为私有  
+// 可以自己控制读写权限 可以检测数据有效性
+// class Person
+// {
+// public:
+// 	string m_Name;
+// 	// 设置姓名
+// 	void setName(string name)
+// 	{
+// 		m_Name = name;
+// 	}
+// 	// 获取姓名
+// 	string getName()
+//	{
+//		return m_Name;
+//	}
+//	int getAge()
+//	{
+//		return m_age;
+//	}
+//	// 设置偶像
+//	void setIdol(string idol)
+//	{
+//		m_idol = idol;
+//	}
+//private:
+//	string m_name;// 姓名可读可写
+//	int m_age = 18;//年龄  只读
+//	string m_idol;  //偶像  只写
+//};
+int ob_main()
 {
-	Person p1;
-	p1.m_name = "李四";
+	// Person p1;
+	// p1.m_name = "李四";
 	// 保护权限的内容在类外访问不到
 	// 私有权限内容在类外访问不到  
 	// C1 c11;
-	C2 c2;
+	// C2 c2;
 
 	// c11.m_A = 10;
-	c2. m_A = 10;
+	// c2. m_A = 10;
 	
 	// 通过猿类创建一个具体的圆
 	// 实例化 （通过一个类创建一个对象 ）
@@ -80,6 +112,16 @@ int main()
 	c1.m_r = 10;
 	cout << "圆的周长是" << c1.calculateZC() << endl;
 
+	// Person p;
+	// p.setName("张三");
+	// cout << "姓名" << p.getName() << endl;
+	// p.m_Age = 20;
+	// cout << "年龄" << p.getAge() << endl;
+
+	// p.setIdol("小明");
+	// cout << "偶像" << getIdol  只写状态外界访问不了
+
+	
 
 	
 
