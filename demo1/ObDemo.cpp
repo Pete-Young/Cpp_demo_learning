@@ -2,8 +2,17 @@
 #include<iostream>
 using namespace std;
 
+Person()
+{
+public:
+	Person()
+	{
+		cout << "Person 构造函数的调用" << endl;
+	}
+}
 int main()
 {
+
 	system("pause");
 	return 0;
 }
