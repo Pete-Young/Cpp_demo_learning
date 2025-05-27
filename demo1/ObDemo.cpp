@@ -10,7 +10,7 @@ public:
 		cout << "Person 构造函数的调用" << endl;
 	}
 }
-int main()
+int ob_main()
 {
 
 	system("pause");
