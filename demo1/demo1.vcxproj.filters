@@ -36,10 +36,7 @@
     <ClCompile Include="SeniorFunction.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="objects.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="exercise_ob.cpp">
+    <ClCompile Include="object.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
