@@ -128,8 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ex_point.cpp" />
+    <ClCompile Include="initial_list.cpp" />
+    <ClCompile Include="ob_copy.cpp" />
     <ClCompile Include="ob_devision.cpp" />
     <ClCompile Include="ob_initial&amp;clean.cpp" />
+    <ClCompile Include="ob_Invoke.cpp" />
+    <ClCompile Include="ob_mem.cpp" />
+    <ClCompile Include="ob_structcp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

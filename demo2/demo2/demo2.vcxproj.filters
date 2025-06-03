@@ -24,5 +24,20 @@
     <ClCompile Include="ob_devision.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ob_copy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_Invoke.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_structcp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="initial_list.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_mem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
