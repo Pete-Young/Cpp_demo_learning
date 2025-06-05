@@ -42,5 +42,23 @@
     <ClCompile Include="static.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ob_this.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="this.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="emp_pointers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="const_mem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="friend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="friend_class.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

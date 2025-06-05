@@ -1,4 +1,8 @@
+E:\code\Cpp\demo2\demo2\const_mem.cpp;E:\code\Cpp\demo2\demo2\x64\Debug\const_mem.obj
+E:\code\Cpp\demo2\demo2\emp_pointers.cpp;E:\code\Cpp\demo2\demo2\x64\Debug\emp_pointers.obj
 E:\code\Cpp\demo2\demo2\ex_point.cpp;E:\code\Cpp\demo2\demo2\x64\Debug\ex_point.obj
+E:\code\Cpp\demo2\demo2\friend.cpp;E:\code\Cpp\demo2\demo2\x64\Debug\friend.obj
+E:\code\Cpp\demo2\demo2\friend_class.cpp;E:\code\Cpp\demo2\demo2\x64\Debug\friend_class.obj
 E:\code\Cpp\demo2\demo2\initial_list.cpp;E:\code\Cpp\demo2\demo2\x64\Debug\initial_list.obj
 E:\code\Cpp\demo2\demo2\ob_copy.cpp;E:\code\Cpp\demo2\demo2\x64\Debug\ob_copy.obj
 E:\code\Cpp\demo2\demo2\ob_devision.cpp;E:\code\Cpp\demo2\demo2\x64\Debug\ob_devision.obj
@@ -6,4 +10,6 @@ E:\code\Cpp\demo2\demo2\ob_initial&clean.cpp;E:\code\Cpp\demo2\demo2\x64\Debug\o
 E:\code\Cpp\demo2\demo2\ob_Invoke.cpp;E:\code\Cpp\demo2\demo2\x64\Debug\ob_Invoke.obj
 E:\code\Cpp\demo2\demo2\ob_mem.cpp;E:\code\Cpp\demo2\demo2\x64\Debug\ob_mem.obj
 E:\code\Cpp\demo2\demo2\ob_structcp.cpp;E:\code\Cpp\demo2\demo2\x64\Debug\ob_structcp.obj
+E:\code\Cpp\demo2\demo2\ob_this.cpp;E:\code\Cpp\demo2\demo2\x64\Debug\ob_this.obj
 E:\code\Cpp\demo2\demo2\static.cpp;E:\code\Cpp\demo2\demo2\x64\Debug\static.obj
+E:\code\Cpp\demo2\demo2\this.cpp;E:\code\Cpp\demo2\demo2\x64\Debug\this.obj

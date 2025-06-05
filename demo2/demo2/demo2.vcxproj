@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="const_mem.cpp" />
+    <ClCompile Include="emp_pointers.cpp" />
     <ClCompile Include="ex_point.cpp" />
+    <ClCompile Include="friend.cpp" />
+    <ClCompile Include="friend_class.cpp" />
     <ClCompile Include="initial_list.cpp" />
     <ClCompile Include="ob_copy.cpp" />
     <ClCompile Include="ob_devision.cpp" />
@@ -135,7 +139,9 @@
     <ClCompile Include="ob_Invoke.cpp" />
     <ClCompile Include="ob_mem.cpp" />
     <ClCompile Include="ob_structcp.cpp" />
+    <ClCompile Include="ob_this.cpp" />
     <ClCompile Include="static.cpp" />
+    <ClCompile Include="this.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,3 +1,2 @@
-﻿  static.cpp
-E:\code\Cpp\demo2\demo2\static.cpp(26,9): warning C4101: “p”: 未引用的局部变量
+﻿  friend_class.cpp
   demo2.vcxproj -> E:\code\Cpp\demo2\x64\Debug\demo2.exe
