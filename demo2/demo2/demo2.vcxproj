@@ -132,6 +132,7 @@
     <ClCompile Include="ex_point.cpp" />
     <ClCompile Include="friend.cpp" />
     <ClCompile Include="friend_class.cpp" />
+    <ClCompile Include="inheritance.cpp" />
     <ClCompile Include="initial_list.cpp" />
     <ClCompile Include="ob_copy.cpp" />
     <ClCompile Include="ob_devision.cpp" />
@@ -142,6 +143,7 @@
     <ClCompile Include="ob_this.cpp" />
     <ClCompile Include="overload.cpp" />
     <ClCompile Include="overload_left.cpp" />
+    <ClCompile Include="Polymorphism.cpp" />
     <ClCompile Include="static.cpp" />
     <ClCompile Include="this.cpp" />
   </ItemGroup>

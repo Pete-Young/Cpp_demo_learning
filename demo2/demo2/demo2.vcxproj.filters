@@ -66,5 +66,11 @@
     <ClCompile Include="overload_left.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="inheritance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Polymorphism.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
