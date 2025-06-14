@@ -144,6 +144,7 @@
     <ClCompile Include="overload.cpp" />
     <ClCompile Include="overload_left.cpp" />
     <ClCompile Include="Polymorphism.cpp" />
+    <ClCompile Include="reload4.cpp" />
     <ClCompile Include="static.cpp" />
     <ClCompile Include="this.cpp" />
   </ItemGroup>
